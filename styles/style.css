@@ -1,0 +1,38 @@
+@import url('./layout.css');
+
+#main-navigation-option-2 {
+    padding: 0px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #515c6f;
+    font-size: 30px;
+}
+
+
+.column {
+    float: left;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 60px;
+    text-align: justify;
+    width: 200px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .rectangle {
+    position: relative;
+    width: 180px;
+    height: 30px;
+    margin: auto;
+    z-index: -1;
+    border: 5px solid lightgray;
+  }
